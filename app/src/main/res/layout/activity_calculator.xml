@@ -7,12 +7,13 @@
     android:background="@color/NotiColorBar"
     tools:context=".Calculator">
 
-    <EditText
-        android:id="@+id/txtNum"
-        android:layout_width="344dp"
-        android:layout_height="67dp"
+    <TextView
+        android:id="@+id/tvNum"
+        android:layout_width="301dp"
+        android:layout_height="71dp"
         android:ems="10"
-        android:inputType="number"
+        android:textAlignment="textEnd"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -47,7 +48,7 @@
         app:layout_constraintVertical_bias="0.276" />
 
     <Button
-        android:id="@+id/btBorrar"
+        android:id="@+id/btnBorrar"
         android:layout_width="135dp"
         android:layout_height="67dp"
         android:text="DELATE"
